@@ -2,7 +2,7 @@
 <img width="48%" alt="image2" src="https://github.com/user-attachments/assets/96af5af5-91d4-479b-b801-82e31f34a418" />
 
 # go-music-tui
-a beautiful tui music viewer with playerctl write in Go
+a beautiful tui music viewer with playerctl written in Go
 
 > [!NOTE]
 > This project is Fully Vibe-coding with Gemini/gh copilot
@@ -10,14 +10,14 @@ a beautiful tui music viewer with playerctl write in Go
 ## Todo
 - [x] Live Lyrics from lrclib
 - [x] kitty album art
-- [ ] Customable KeyConfig
+- [ ] Customizable KeyConfig
 - [ ] Fully Matugen Support
 ## how to use?
 
 ### Before running the project, make sure you have the following requirements installed:
 - **playerctl**
 - **Go(1.26+ Recommended)**
-- **Terminal supported icat(kitty recomended)**
+- **Terminal supported icat(kitty recommended)**
 - matugen(advanced)
 - **any MPRIS supported Player(Recommend mpv+mpv-mpris or spotify, Firefox and Firefox-Fork sucks at providing artwork)**
 - **any Nerd Fonts**
@@ -34,7 +34,7 @@ using ssh
 git clone git@github.com:dot-1245/go-music-tui.git
 ```
 
-**using github CLI(recomended)**
+**using github CLI(recommended)**
 ```bash
 gh repo clone dot-1245/go-music-tui
 ```
@@ -56,17 +56,17 @@ go run main.go
 ### Step 3: Have fun!
 
 ## Advanced: How To use Matugen on this project?
-This TUI Reads ~/matugen-colors.txt and use this four Color. so you can use matugen or any software to change color to anything you want(wallpaper, artwork, anything!)
-
+This TUI reads ~/matugen-colors.txt and uses these four Color:
 ```
 primary #ffffff
 source_color #4285f4
 on_error_container #ffdad6
 outline #919191
 ```
+so you can use matugen or any software to change color to anything you want(wallpaper, artwork, anything!)
 
 > [!WARNING]
-> it's based on my system, it's may cause bug / mess up your nice Rice by wrong path. Be Carefull With ALL Step! Please Read and Verify All commands Before Run!
+> it's based on my system, it may cause bugs / mess up your nice Rice due to incorrect paths. Be Careful With ALL Step! Please Read and Verify All commands Before Run!
 
 First, Move to Matugen templates folder (in my system, it's on ~/.config/matugen/templates )
 ```bash
@@ -91,4 +91,7 @@ output_path = '~/matugen-colors.txt'
 EOF
 ```
 
-Done!
+Done! Enjoy!
+
+# LICENSE:
+[GPL v3.0](LICENSE)
