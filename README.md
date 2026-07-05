@@ -17,7 +17,7 @@ a beautiful tui music viewer with playerctl written in Go
 ### Before running the project, make sure you have the following requirements installed:
 - **playerctl**
 - **Go(1.26+ Recommended)**
-- **Terminal supported icat(kitty recommended)**
+- **Terminal supported kittyimg(kitty recommended)**
 - matugen(advanced)
 - **any MPRIS supported Player(Recommend mpv+mpv-mpris or spotify, Firefox and Firefox-Fork sucks at providing artwork)**
 - **any Nerd Fonts**
