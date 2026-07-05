@@ -1,0 +1,59 @@
+name: 🚀 Feature Request
+description: Suggest an idea or new feature for go-music-tui.
+title: "[FEATURE]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea to make go-music-tui better? Please tell us about it!
+        新しい機能のアイデアをお持ちですか？ぜひお聞かせください！
+
+  - type: dropdown
+    id: language
+    attributes:
+      label: 🌐 Preferred Language / 希望する対応言語
+      description: Which language would you prefer to communicate in? (どちらの言語での対応を希望しますか？)
+      options:
+        - English (英語)
+        - Japanese (日本語)
+        - Either is fine (どちらでも可)
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 🤨 Is your feature request related to a problem? / 現状の困りごと
+      description: A clear and concise description of what the problem is. (例:「〇〇の操作がしづらい」「〇〇が表示されなくて不便」など)
+      placeholder: "e.g., I'm always frustrated when..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: 💡 Proposed Solution / 提案する機能の内容
+      description: A clear and concise description of what you want to happen. (どのような機能や画面表示が欲しいかを詳しく教えてください。)
+      placeholder: Describe the solution you'd like to see...
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 🔄 Alternative Solutions / 代替案（もしあれば）
+      description: Any alternative solutions or features you've considered. (他に考えられる方法や、現状どうやって回避しているかなどがあれば教えてください。)
+      placeholder: Describe any alternative solutions you've considered...
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: 📌 Additional Context / その他・参考資料
+      description: Any other context, mockup screenshots, or examples from other TUI tools. (イメージ図のスクリーンショットや、他のツールの例などがあればここに貼ってください。)
+      placeholder: Attach mockups or screenshots by dragging and dropping them here.
+    validations:
+      required: false
