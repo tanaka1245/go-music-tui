@@ -1,5 +1,5 @@
-<img width="48%" alt="image1" src=".github/images/screenshot1.png" />
-<img width="48%" alt="image2" src=".github/images/screenshot2.png" />
+<img width="48%" alt="running go-music-tui with porterrobinson&madeon - shelter" src=".github/images/screenshot1.png" />
+<img width="48%" alt="running go-music-tui with ODESZA - A Moment Apart" src=".github/images/screenshot2.png" />
 
 # go-music-tui
 a beautiful tui music viewer with playerctl written in Go
@@ -13,6 +13,8 @@ a beautiful tui music viewer with playerctl written in Go
 - [ ] Customizable KeyConfig
 - [ ] TTY Color support
 - [ ] No Lyrics mode
+- [ ] click-able UI
+- [ ] Support CJK characters 
 - [ ] AUR Support(at this timing, AUR Registration is temporarily closed by Spam :/)
 ## how to use?
 
