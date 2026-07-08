@@ -110,7 +110,7 @@ body:
       label: 🛠️ Troubleshooting Checklist / トラブルシューティングの確認
       description: Please check the following before submitting. (送信前に以下を確認してください。)
       options:
-        - label: I have updated my OS/system. (システム(OS)を最新go version go1.26.4-X:nodwarf5 linux/amd64に更新してみた)
+        - label: I have updated my OS/system. (システムを更新してみた(e.g. pacman -Syu or apt update && apt upgrade))
           required: true
         - label: I have updated go-music-tui to the latest version. (このソフトを最新に更新してみた)
           required: true
