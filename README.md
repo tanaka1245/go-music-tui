@@ -14,7 +14,8 @@ a beautiful tui music viewer with playerctl written in Go
 - [ ] TTY Color support
 - [ ] No Lyrics mode
 - [ ] click-able UI
-- [ ] Support CJK characters 
+- [ ] Support CJK characters
+- [ ] Move into a named TUI platform (I will. maybe)
 - [ ] AUR Support(at this timing, AUR Registration is temporarily closed by Spam :/)
 ## Install / How to setup?
 
@@ -25,7 +26,6 @@ a beautiful tui music viewer with playerctl written in Go
 - matugen(advanced)
 - **any MPRIS supported Player (Recommend mpv+mpv-mpris or spotify, Firefox and Firefox-Fork suck at providing artwork)**
 - **any Nerd Fonts**
-
 ## Auto Install With Go (Recommended)
 ```bash
 go install github.com/dot-1245/go-music-tui@latest
