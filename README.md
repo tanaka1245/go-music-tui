@@ -13,11 +13,11 @@ a beautiful tui music viewer with playerctl written in Go
 - [ ] Customizable KeyConfig
 - [ ] TTY Color support
 - [ ] No Lyrics mode
+- [ ] No Album-art mode
 - [ ] click-able UI
 - [ ] Support CJK characters
 - [ ] Move into a named TUI platform (I will. maybe)
 - [ ] AUR Support(at this timing, AUR Registration is temporarily closed by Spam :/)
-- [ ] No Album art mode
 ## Install / How to setup?
 
 ### Before running the project, make sure you have the following requirements installed:
